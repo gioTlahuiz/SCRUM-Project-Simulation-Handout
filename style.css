@@ -98,14 +98,10 @@ h1 {
 .footer-right div {
     margin-left: 25px;
 }
-
-  height: 100%;
-  width: 100%;
-}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url(https://silprofe.com/wp-content/uploads/curso-de-sublimacion-online-principiantes.webp);
+  /*background-image: url(https://silprofe.com/wp-content/uploads/curso-de-sublimacion-online-principiantes.webp);*/
 }
 nav {
   background-color: #333;

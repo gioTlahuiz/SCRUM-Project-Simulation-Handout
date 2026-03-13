@@ -3,24 +3,31 @@ html {
   width: 100%;
 }
 body {
-  background-color: rgba(204, 169, 64, 0.378);
+  background-color: hsl(258, 48%, 81%);
 }
 
 h1 {
-  text-shadow: 0 0 8px rgb(102, 139, 170);
+  text-shadow: 0 0 8px #f88;
   font-family: cursive;
   text-align: center;
   font-weight: 100;
+  font-size: 60px;
 }
 
 .contenedor {
   height: 200px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.232);
+  /* background-color: rgba(0, 0, 0, 0.232); */
 }
 
 .izquierda {
   height: 200px;
   width: 50%;
   text-align: center;
+  line-height: 2.5;
+  font-style: italic;
+}
+
+.derecha {
+  /* poner lo que corresponda en caso de ser necesario */
 }

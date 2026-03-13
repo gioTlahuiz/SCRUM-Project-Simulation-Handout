@@ -1,2 +1,2 @@
-# SCRUM-Project-Simulation-Handout
-Este repositorio pretende integrar el desarrollo grupal sobre como trabajar de forma mas organizada por medio de Github
+# ad-l4
+AD-07-1 The blog Site - Group

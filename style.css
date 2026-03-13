@@ -1,5 +1,48 @@
 html {
     height: 100%;
     width: 100%;
-  }
-  
+}
+
+.footer-total {
+  width: 100%;
+  display: flex;
+
+  background-color: blueviolet;
+
+  justify-content: center;
+  align-content: baseline;
+}
+
+.footer-left {
+  padding: 30px;
+  width: 45%;
+}
+.footer-right {
+  padding: 30px;
+  width: 45%;
+}
+
+.footer-name {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  font-size: smaller;
+}
+
+
+.footer-email-name {
+  padding: 0px;
+  margin: 0px;
+  font-size: smaller;
+}
+
+.footer-email {
+
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.footer-right div{
+  margin-left: 25px;
+}

@@ -32,10 +32,6 @@ h1 {
   /* poner lo que corresponda en caso de ser necesario */
 }
 
-    height: 100%;
-    width: 100%;
-}
-
 .footer-total {
   width: 100%;
   display: flex;

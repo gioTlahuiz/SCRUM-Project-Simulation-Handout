@@ -1,110 +1,100 @@
 html {
-    height: 100%; 
-    width: 100%; 
-  }
- 
-
-  .playeras img {
-    width: 20%;
-    max-width: 100;
-    height: 230px;
-    position: absolute;
-    left: 1000px;
-    
-  }
-  
-   .tazas img {
-    width: 20%;
-    max-width: 100;
-    height: 230px;
-    position: absolute;
-    left: 1000px;
-    bottom: 260px;
-  }
-
-   .stickers img {
-    width: 20%;
-    max-width: 100;
-    height: 230px;
-    position: absolute;
-    left: 1000px;
-    bottom: 26px ;
-  }
-  
-  
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
+.playeras img {
+    max-width: 100;
+    height: 230px;
+    left: 1000px;
+}
+
+.tazas img {
+    max-width: 100;
+    height: 230px;
+    left: 1000px;
+}
+
+
+.stickers img {
+    max-width: 100;
+    height: 230px;
+    left: 1000px;
+
+}
+
 body {
-  background-color: hsl(258, 48%, 81%);
+    background-color: hsl(258, 48%, 81%);
 }
 
 h1 {
-  text-shadow: 0 0 8px #f88;
-  font-family: cursive;
-  text-align: center;
-  font-weight: 100;
-  font-size: 60px;
+    text-shadow: 0 0 8px #f88;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 60px;
 }
 
 .contenedor {
-  height: 200px;
-  width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.232); */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    /* background-color: rgba(0, 0, 0, 0.232); */
 }
 
 .izquierda {
-  height: 200px;
-  width: 50%;
-  text-align: center;
-  line-height: 2.5;
-  font-style: italic;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
 }
 
 .derecha {
-  /* poner lo que corresponda en caso de ser necesario */
+    /* poner lo que corresponda en caso de ser necesario */
+    width: 50%;
 }
 
 .footer-total {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
 
-  background-color: blueviolet;
+    background-color: blueviolet;
 
-  justify-content: center;
-  align-content: baseline;
+    justify-content: center;
+    align-content: baseline;
 }
 
 .footer-left {
-  padding: 30px;
-  width: 45%;
+    padding: 30px;
+    width: 45%;
 }
 .footer-right {
-  padding: 30px;
-  width: 45%;
+    padding: 30px;
+    width: 45%;
 }
 
 .footer-name {
-  margin: 0px;
-  padding: 0px;
-  margin-left: 15px;
-  font-size: smaller;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15px;
+    font-size: smaller;
 }
 
-
 .footer-email-name {
-  padding: 0px;
-  margin: 0px;
-  font-size: smaller;
+    padding: 0px;
+    margin: 0px;
+    font-size: smaller;
 }
 
 .footer-email {
-
-  padding: 0px;
-  margin: 0px;
-  margin-left: 5px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
 }
 
-.footer-right div{
-  margin-left: 25px;
+.footer-right div {
+    margin-left: 25px;
 }
